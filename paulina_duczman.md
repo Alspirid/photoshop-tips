@@ -1,0 +1,12 @@
+- Open raw file in Photoshop -> Camera Raw (plugin)
+- Crop with ratio 4:5 (5:8) <-> 5:4 (8:5)
+- Liqify filter
+- Clean up face
+- Doge eyes
+- Burn shadows
+- Plugin Portrait Pro
+- Add background texture
+- Erase texture on a person
+- Doge and Burn
+- Adjust levels
+- Decrease saturation
