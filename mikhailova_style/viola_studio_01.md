@@ -1,0 +1,47 @@
+**Camera Raw changes:**
+
+- Reset to default settings
+- Adobe Color Profile: Adobe color
+- Crop to 4x5
+- Adjust highlights, shadows, whites, blacks, texture +8, clarity +8
+- Sharpenning: 65, Radius: +0.8, Detail: 25, Masking: change with "option" key
+- Noise reduction: luminance: 10-20
+- Color noise reduction: 75
+- Calibration: Blue primary saturation: +50, Red saturation: -8, Green Hue: +9
+- Color mixer HSL: Saturation -> Yellow: -20, Luminance Orange: +20
+- Check Camera Raw Export settings: SRGB, 16 bit, 300px, Sharpen to Screen / Default
+- Open in Photoshop
+- Duplicate layer
+- Liquify changes: widen eyes, narrow nose, smile, jawline, face width, etc.
+- Remove dark circles with 10% stamp tool
+- Clean up face
+- Create 3 layer copies. rename them to [color, portraiture, texture]
+- 1st layer color: Filter -> Blur -> Gaussian blur: 2px
+- 3rd layer texture: Image -> Apply image: { Layer="color", invert: true, blending: "Add", Scale: 2 }
+- 2nd layer apply Imagenomic Portraiture: Default Settings
+- Duplicate 3rd layer with texture and add "black" mask
+- On newly created mask with white brush to enhance texture on eye iris, lips, browes, hair, etc.
+- Merge all layers
+- Add contrast with curves: left corner up, right corner down, on white mask brush with black to remove extra contrast
+- Change blending mode of the layer with curves to "Luminosity"
+- Add layer with Levels: using option key
+- Doge and Burn: 50% gray layer, soft light/Overlay, brush with white and black
+- Merge layers
+- Add Selective color layer: { red: { cyan: -20, magenta: -10 }, yellow: { cyan: -20, yellow: -20 }
+- Merge layers
+- New layer apply Nik Collection Viveza: Structure +70
+- Add black mask and brush over dogs and hair
+- Adjust opacity for the layer with Viveza
+- Merge layers
+- Add new layer, Filter -> Camera Raw Filter: Adjust white balance
+- Add black mask and brush over the background
+- Add new layer
+- Add Nik Collection Color Efex Pro 4 -> Film Grain: 300
+- Change opacitr to 50%
+- New layer -> Exposure: Offset: 0.0191, Gamma Correction: 0.91
+- Opacity: 75%
+- Add Color Balance layer: Midtones: Yellow-Blue: +11, Cyan-Red: -8, Highlights: Yellow-Blue: +5, Cyan-Red: -8
+- Check skin tone: right click outside of the image -> Select custom color -> CMYK: 6, 21, 28, 0
+- if needed adjust Hue Saturation: Remove reds, add yellows
+- New layer, blending mode: Color, pick color from hat, brush over the dogs
+
