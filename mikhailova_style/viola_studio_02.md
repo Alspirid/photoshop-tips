@@ -1,0 +1,53 @@
+- Adobe Camera Raw settings: Reset to default
+- Adjust Shadows, Highlights, Blacks
+- Adjust sharpness: sharpening: 65, radius: 1, details: 25, masking: use option key
+- Manual noise reduction: luminance: 20, color: 75
+- Color mixer: {Saturation: yellow: -40, }, {luminance: oranges: +10, yellow: -15}
+- Calibration: { blue: saturation: + 50 }, { red: saturation: -8 }, { green: hue: +13}
+- Open in PS
+- Filter -> Liquify: widen eyes, narrow nose width, smile, lips lower and upper
+- Clean up the face on a new layer 45% opacity
+- Merge layers
+- Create 3 layers: [color, portraiture, texture]
+- 1st layer color: Filter -> Blur -> Gaussian blur: 2.5px
+- 3rd layer texture: Image -> Apply image: { Layer="color", invert: true, blending: "Add", Scale: 2 }
+- 2nd layer apply Imagenomic Portraiture: Default Settings
+- Duplicate 3rd layer with texture and add "black" mask
+- On newly created mask with white brush to enhance texture on eye iris, lips, browes, hair, etc.
+- Merge all layers
+- Add contrast with curves: left corner up, right corner down, on white mask brush with black to remove extra contrast
+- Add contrast using levels: option key
+- Change blending mode of the layer with curves to "Luminosity"
+- On white mask brush with black to remove extra contrast
+- Merge layers
+- Add two layers with curves: [Dodge, Burn]
+- Add black masks and do dodge and burn
+- Merge layers
+- Add Selective color layer: { red: { cyan: -20, magenta: -8 }, yellow: { cyan: -35, yellow: -20 }
+- Add color balance: { shadows: yellow-blue: +5, cyan-red: -5 }, { midtones: yellow-blue: +5, cyan-red: -5 }, { highlights: yellow-blue: +8, cyan-red: -5 }
+- Merge layers
+- Add Nik Collection Color Efex Pro 4: Details extraction 25%, Contrast: 6%, Saturation: 6%
+- Merge layers
+- Add Nik Collection Color Efex Pro 4: Darken/Lighten center: { center luminosity: -34%, border luminosity: -24%, center size: 42% }
+- Merge layers
+- New duplicate layer, blending mode: Multiply + black mask
+- Burn areas that needed to be darker
+- Merge layers
+- Add texture layer, Blending mode: Soft light
+- Add blurring: Filter -> Blur -> Gaussian blur: 7px
+- Decolorize: Image -> Adjustments -> Desaturate (Shift+Cmd+U)
+- Add black mask and brush over background / Use select object, invert mask and apply to background texture
+- Reduce opacity if neeeded
+- Merge layers
+- Add exposure: { offset: 0.0191, gamma correction: 0.91 }
+- Apply mask with inverted object or brush with white over the black mask
+- Duplicate exposure layer, opacity: 40%
+- Add new layer, fill with white
+- Add noise: Filter -> Noise -> Add noise: 10%, Gaussian, Monochromatic
+- Add blur: Filter -> Blur -> Gaussian blur: 0.7px
+- Blending mode: Linear burn
+- Change layer opacity to 35% - 40%
+- Merge layers
+- Add new layer, blending mode: Color, pick color from fur, brush over the bird
+- Add Hue/Saturation layer. Using cursor pick the color from the hat and adjust the saturation
+- Check skin tone: right click outside of the image -> Select custom color -> CMYK: 6, 21, 28, 0
