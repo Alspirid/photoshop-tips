@@ -1,0 +1,58 @@
+- Adobe Camera Raw settings: Reset to default
+- Profile: Adobe Color
+- Adjust Shadows and highlights
+- Texture: -6
+- Clarity: -4
+- Curves: { Darks: +9 }
+- Detail: Sharpening: 70, Masking: 0
+- Manual noise reduction: Luminance: 20, Color: 75
+- Color mixer: { Hue: Red: 6, Yellow: -17 }, { Saturation: Green: -33, Yellow: -15 }, { Luminance: Orange: +12 }
+- Calibration: { Blue: Saturation: +50 }, { Red: Saturation: -8 }, { Green: Hue: +5 }
+- Crop: 4x5
+- Open in PS
+- Filter -> Liquify: widen eyes, narrow nose width, smile, lips lower and upper
+- Clean up the face and small hair
+- Merge layers
+- Create 3 layers: [color, portraiture, texture]
+- 1st layer color: Filter -> Blur -> Gaussian blur: 2.5px
+- 3rd layer texture: Image -> Apply image: { Layer="color", invert: true, blending: "Add", Scale: 2 }
+- 2nd layer apply Imagenomic Portraiture: Default Settings
+- Duplicate 3rd layer with texture and add "black" mask
+- On newly created mask with white brush to enhance texture on eye iris, lips, browes, hair, etc.
+- Merge all layers
+- Add contrast with curves: left corner up, right corner right, on white mask brush with black to remove extra contrast. If skin tone is too red, change blending mode to "Luminosity"
+- Add new layer Levels: adjust the contrast using option key
+- If some parts are too dark add a new mask and brush with black color on a white mask
+- Clean up eyes, blood vessels, etc.
+- Merge layers
+- Add two layers with curves: [Dodge, Burn]
+- Burn face volume, dodge eyes, shadow under bottom lip, darken eyebrows, darken upper eyelid, dodge lower eyelid, dodge lips
+- Merge layers
+- Add Selective color layer: { red: { cyan: -25, magenta: -15 }, yellow: { cyan: -25, yellow: -20 }
+- Add white mask and brush with black over the face only
+- Duplicate layer
+- Filter -> Nik Collection Color Efex Pro 4: Darken/Lighten center: { center luminosity: 0%, border luminosity: 50%, center size: 55% }
+- Add white mask and brush with black over dark areas on the body
+- Merge layers
+- Add shiny effect to the eyes: Duplicate layer. Filter -> Other -> High pass: Radius: 4-5px. Blending mode: Overlay
+- Add curves and add cliping mask (apply it them)to the high pass layer. Adjust the contrast: curve should be S-shaped
+- Group two layers and add a white mask. Brush with black over the eye iris. Adjust the opacity to 30%
+- Add new layer, blending mode: color, pick a color, brush over the iris. Adjust the opacity to 10-15%
+- Optionaly adjust color with color balance. Add black mask and with white brush over the iris. Adjust the opacity to 10-15%
+- Add oil paint effect: Filter -> Stylize -> Oil paint: Stylization: 9.9 , Cleanliness: 10, Scale: 6.6, Bristle detail: 5.2, Shine: 1.4, Angle: 157
+- Add texture layer, Blending mode: Soft light / Overlay
+- Add filter: Filter -> Blur -> Gaussian blur: 3px
+- Add white mask and brush over the face with black color
+- Change opacity to 15%
+- Merge layers
+- Add new layer, fill with white
+- Add noise: Filter -> Noise -> Add noise: 10-12%, Gaussian, Monochromatic
+- Add blur: Filter -> Blur -> Gaussian blur: 1.5px
+- Blending mode: Linear burn
+- Change layer opacity to 35% - 40%
+- Merge layers
+- Add exposure: { offset: 0.0191, gamma correction: 0.91 }
+- Change opacity to 70%
+- Add Color balance: { shadows: yellow-blue: +3, cyan-red: -2 }, { highlights: yellow-blue: -4, cyan-red: -5 }
+- Add Hue/Saturation layer. If there is too much red, adjust the saturation
+- If we need to make cheeks more red, add a new layer -> Selective color: Cyan: -15. Add black mask and brush with white over the cheeks and lips. Adjust the opacity to 20%
